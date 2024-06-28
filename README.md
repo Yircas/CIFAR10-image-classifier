@@ -17,4 +17,5 @@ This follows a tutorial from [this blog post](https://medium.com/bitgrit-data-sc
 3. Activate your created environment with "conda activate cifar10-image-classifier"
 
 ## Use
-All the important code is currently inside classifier.ipynb. You should run all cells in order to get the project working.
+- All the important code is currently inside classifier.ipynb. You should run all cells in order to get the project working.
+- There is also another copied tutorial from [pytorch.org](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) inside the "PyTorch-Tutorial"-folder.
