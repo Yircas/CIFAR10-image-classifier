@@ -1,0 +1,13 @@
+name: cifar10-image-classifier
+channels:
+  - defaults
+  - pytorch
+  - nvidia
+dependencies:
+  - python=3.12.0
+  - matplotlib
+  - numpy
+  - ipykernel
+  - pytorch
+  - pytorch-cuda=12.1
+  - torchvision
