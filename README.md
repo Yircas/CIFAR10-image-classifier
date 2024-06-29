@@ -9,7 +9,6 @@ This follows a tutorial from [this blog post](https://medium.com/bitgrit-data-sc
 ## Prerequisites
 - I'd recommend Conda to setup this project. You can get Conda by installing [Anaconda/Miniconda](https://www.anaconda.com/download/success).
 - You need [Jupyter](https://jupyter.org/) or a Code Editor like [VS Code](https://code.visualstudio.com/download) with the [Jupyter extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) to view .ipynb-files.
-- Currently a GPU with [Cuda](https://developer.nvidia.com/cuda-downloads) is needed for training, make sure you have this
 
 ## Setup
 1. Clone this repository with "git clone https://github.com/Yircas/CIFAR10-image-classifier.git"
@@ -19,3 +18,4 @@ This follows a tutorial from [this blog post](https://medium.com/bitgrit-data-sc
 ## Use
 - All the important code is currently inside classifier.ipynb. You should run all cells in order to get the project working.
 - There is also another copied tutorial from [pytorch.org](https://pytorch.org/tutorials/beginner/deep_learning_60min_blitz.html) inside the "PyTorch-Tutorial"-folder.
+- cifar_net.pth is a pretrained model, which is ready for usage
