@@ -3,8 +3,11 @@ This is a PyTorch implementation of a simple image classification model for the 
 
 ![Example](https://production-media.paperswithcode.com/datasets/4fdf2b82-2bc3-4f97-ba51-400322b228b1.png "CIFAR-10 class examples")
 
+This also uses the [Captum](https://captum.ai/) library to visualize, which areas in the images were interesting to the model. To do this, we use Captum's implementations of different Attribution methods.
+
 ## source
 This follows a tutorial from [this blog post](https://medium.com/bitgrit-data-science-publication/building-an-image-classification-model-with-pytorch-from-scratch-f10452073212), credits go to the tutorial's author. <3
+The Captum integration is based on [this tutorial](https://captum.ai/tutorials/CIFAR_TorchVision_Interpret).
 
 ## Prerequisites
 - I'd recommend Conda to setup this project. You can get Conda by installing [Anaconda/Miniconda](https://www.anaconda.com/download/success).

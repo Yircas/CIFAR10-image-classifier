@@ -163,3 +163,4 @@ cython_debug/
 
 # project related stuff
 data/
+models/cifar_trained.pth
